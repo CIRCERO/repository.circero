@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repo.circero" name="[COLOR crimson]C[COLOR silver]irero Repo[/COLOR]" version="1.0.0.1" provider-name="Circero">
+    <extension point="xbmc.addon.repository" name="Circero">
+        <info compressed="false">https://raw.githubusercontent.com/circero/repo.circero/master/addons.xml</info>
+        <checksum>http://raw.githubusercontent.com/circero/repo.circero/master/addons.xml.md5</checksum>
+        <datadir zip="true">http://raw.githubusercontent.com/circero/repo.circero/master/zips/</datadir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Circero Repo</summary>
+        <description>Repo For Circero</description>
+        <platform>all</platform>
+    </extension>
+</addon>
+
