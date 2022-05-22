@@ -1,0 +1,6 @@
+[submodule "repository.circero"]
+	path = repository.circero
+	url = https://raw.githubusercontent.com/CIRCERO/repository.circero/master/zips/repository.circero.git
+[submodule "repository.dobbelina"]
+	path = repository.dobbelina
+	url = https://raw.githubusercontent.com/dobbelina/repository.dobbelina/master/repository.dobbelina.git
