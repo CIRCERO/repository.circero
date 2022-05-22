@@ -1,4 +1,3 @@
-cd ~
 git pull
 
 cd python update_repo.py
