@@ -1,6 +1,6 @@
 FN=build.sh
 
-if [[ $0 == "$PWD/build" ]]; then
+if [[ $0 == "$PWD/repository.circero" ]]; then
 	exit
 fi
 

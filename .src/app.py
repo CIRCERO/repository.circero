@@ -14,7 +14,7 @@ def hello():
     return message
 
 if __name__ == '__main__':
-    server_port = os.environ.get('PORT')
+    server_port = os.environ.get('8.0.8.0')
     if server_port is None:
         print("error: PORT environment variable not set")
         exit(1)
