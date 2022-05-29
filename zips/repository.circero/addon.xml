@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.circero" name="Circero Repo" version="2.0.31" provider-name="CIRCERO">
+<addon id="repository.circero" name="Circero Repo" version="2.0.32" provider-name="CIRCERO">
     <extension point="xbmc.addon.repository" name="Circero Repository">
         <dir>
             <info compressed="false">https://raw.githubusercontent.com/CIRCERO/repository.circero/master/addons.xml</info>
