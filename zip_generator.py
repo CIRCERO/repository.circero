@@ -21,7 +21,7 @@ def create_zip_file(addon_dir):
   if not version:
     return
   with ZipFile(addon_dir + os.sep + addon_dir + '-' + version + '.zip',
-               'w') as addonzip:
+               'wb') as addonzip:
     for root, dirs, files in os.walk(addon_dir):
       for file_path in files:
         if file_path.endswith('.zip'):
@@ -39,7 +39,7 @@ def main():
     if(addon_dir.startswith('.')):
       # skip hidden dirs
       continue
-    if(addon_dir == "rebuilt.repository"):
+    if(addon_dir == "repository.circero"):
       # skip download directory
       continue
     create_zip_file(addon_dir)

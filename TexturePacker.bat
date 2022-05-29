@@ -79,7 +79,7 @@ ECHO ----------------------------------------
 
 F:
 cd ./zips\
-python addons_xml_generator.py
+python \%1\%1\_repo_xml_generator.py
 
 ECHO -------------------------------------------------------------------------
 ECHO        ** XBT build complete - scroll up to check for errors. **

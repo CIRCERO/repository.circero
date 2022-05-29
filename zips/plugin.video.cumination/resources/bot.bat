@@ -1,1 +1,0 @@
-filebot -script fn:amc --output "resources/" --action duplicate -non-strict "/lib/" --log-file amc.log --def excludeList=amc.txt

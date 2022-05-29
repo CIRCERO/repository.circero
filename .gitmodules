@@ -4,3 +4,6 @@
 [submodule "repository.streamarmy"]
 	path = repository.streamarmy
 	url = https://github.com/nemesis668/repository.streamarmy.git
+[submodule "plugin.video.elementum"]
+	path = plugin.video.elementum
+	url = https://github.com/elgatito/plugin.video.elementum.git

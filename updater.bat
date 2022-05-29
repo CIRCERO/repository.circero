@@ -11,7 +11,7 @@ ECHO ----------------------------------------
 Echo Building main skin XBT
 ECHO ----------------------------------------
 
-START /B /WAIT \TexturePacker -dupecheck -input %1\media -output \%1\media\Textures.xbt
+START /B /WAIT TexturePacker -dupecheck -input %1\media -output \%1\media\Textures.xbt
 
 ECHO ----------------------------------------
 Echo Finished building main skin XBT
@@ -64,7 +64,7 @@ ECHO Generating addons.xml and addons.xml.md5
 ECHO ----------------------------------------
 
 F:
-cd \_pluginzips
-python /addons_xml_generator
+cd 
+python /kevng/repository.circero/_repo_xml_generator.py
 
 pause
