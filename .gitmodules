@@ -7,3 +7,6 @@
 [submodule "plugin.video.elementum"]
 	path = plugin.video.elementum
 	url = https://github.com/elgatito/plugin.video.elementum.git
+[submodule "repo.circero"]
+	path = repo.circero
+	url = https://github.com/circero/repo.circero.git
