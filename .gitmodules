@@ -1,3 +1,6 @@
 [submodule "repository.dobbelina"]
 	path = repository.dobbelina
 	url = https://github.com/dobbelina/repository.dobbelina.git
+[submodule "repository.streamarmy"]
+	path = repository.streamarmy
+	url = https://github.com/nemesis668/repository.streamarmy.git
